@@ -1,0 +1,1 @@
+// This my database configuration file. It contains the settings required to connect to the database.
