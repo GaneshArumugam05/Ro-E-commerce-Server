@@ -1,5 +1,29 @@
 {
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3",
+    "nodemon": "^3.1.14"
+  },
+  "name": "ro-e-commerce-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshArumugam05/Ro-E-commerce-Server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/GaneshArumugam05/Ro-E-commerce-Server/issues"
+  },
+  "homepage": "https://github.com/GaneshArumugam05/Ro-E-commerce-Server#readme"
 }
