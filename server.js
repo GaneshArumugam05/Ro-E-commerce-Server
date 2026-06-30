@@ -14,9 +14,7 @@ app.use(express.json());
 
 // Database Connect -------------------------------------------------------------------------------------- /
 connectDB();
-mongoose.connection.once("open", () => {
-  console.log("Connected to:", mongoose.connection.name);
-});
+
 // Routes ------------------------------------------------------------------------------------------------ /
 app.use("/api/products", require("./routes/products"));
 
